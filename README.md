@@ -1,13 +1,14 @@
 <a name="readme-top"></a>
 
+<p align="center">
+  <img width="1440" alt="Keythm — typing test with mechanical keyboard sounds" src=".github/images/img_main.png" />
+</p>
+
 <div align="center">
   <h1>⌨️ Keythm</h1>
   <p><strong>A modern typing test application with realistic mechanical keyboard audio feedback and real-time WPM tracking.</strong></p>
 
   <p>
-    <a href="https://github.com/talha-096/Keythm"><strong>Website: https://github.com/talha-096/Keythm »</strong></a>
-    <br />
-    <br />
     <a href="https://github.com/talha-096/Keythm/issues">Report Bug</a>
     &middot;
     <a href="https://github.com/talha-096/Keythm/issues">Request Feature</a>
@@ -43,8 +44,6 @@
 ## About The Project
 
 **Keythm** is a sleek, web-based typing speed application built with Next.js 16, React 19, and Tailwind CSS. It features **realistic mechanical keyboard audio feedback**, real-time WPM/accuracy tracking, multiple color themes, interactive virtual keyboard displays, and detailed performance breakdown charts.
-
-Website: [https://github.com/talha-096/Keythm](https://github.com/talha-096/Keythm)
 
 <br />
 
