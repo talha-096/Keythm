@@ -7,11 +7,7 @@
   <p align="center">
     A free typing test with realistic mechanical keyboard sounds
     <br />
-    <a href="https://github.com/talha-096/Keythm"><strong>Try it live »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/talha-096/Keythm">Website</a>
-    &middot;
     <a href="https://github.com/talha-096/Keythm/issues">Issues</a>
     &middot;
     <a href="https://github.com/talha-096/Keythm/issues/new?labels=enhancement&template=FEATURE_REQUEST_TEMPLATE.md">Request Feature</a>
@@ -40,7 +36,6 @@
   <a href="https://github.com/talha-096/Keythm/pulls">
     <img src="https://img.shields.io/github/issues-pr/talha-096/Keythm?color=brightgreen&label=PRs" alt="Pull Requests">
   </a>
-  <img src="https://img.shields.io/github/deployments/talha-096/Keythm/Production?logo=vercel&label=Website" alt="Deployment Status">
 </p>
 
 <details>
