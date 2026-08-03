@@ -1,171 +1,135 @@
 <a name="readme-top"></a>
 
-<img width="1440" alt="Keythm — typing test with mechanical keyboard sounds" src=".github/images/img_main.png" />
+<div align="center">
+  <h1>⌨️ Keythm</h1>
+  <p><strong>A modern typing test application with realistic mechanical keyboard audio feedback and real-time WPM tracking.</strong></p>
 
-<p align="center">
-  <h3 align="center">Keythm</h3>
-  <p align="center">
-    A free typing test with realistic mechanical keyboard sounds
+  <p>
+    <a href="https://github.com/talha-096/Keythm"><strong>Explore the Repository »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/talha-096/Keythm/issues">Issues</a>
+    <a href="https://github.com/talha-096/Keythm/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/talha-096/Keythm/issues/new?labels=enhancement&template=FEATURE_REQUEST_TEMPLATE.md">Request Feature</a>
+    <a href="https://github.com/talha-096/Keythm/issues">Request Feature</a>
   </p>
-</p>
 
-<p align="center">
-  <a href="https://github.com/talha-096">
-    <img src="https://custom-icon-badges.demolab.com/badge/made%20by%20-talha--096-556bf2?logo=github&logoColor=white&labelColor=101827" alt="Made by Talha">
-  </a>
-  <a href="https://github.com/talha-096/Keythm/stargazers">
-    <img src="https://img.shields.io/github/stars/talha-096/Keythm?style=flat&logo=github" alt="GitHub Stars">
-  </a>
-  <a href="https://github.com/talha-096/Keythm/forks">
-    <img src="https://img.shields.io/github/forks/talha-096/Keythm?style=flat" alt="GitHub Forks">
-  </a>
-  <a href="https://github.com/talha-096/Keythm/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/talha-096/Keythm?color=dddddd&labelColor=000000" alt="License">
-  </a>
-  <a href="https://www.typescriptlang.org/">
-    <img src="https://img.shields.io/github/languages/top/talha-096/Keythm?&logoColor=%23007ACC&label=TypeScript" alt="Top Language">
-  </a>
-  <a href="https://github.com/talha-096/Keythm/commits/main">
-    <img src="https://img.shields.io/github/commit-activity/t/talha-096/Keythm?style=flat&logo=github" alt="Commits">
-  </a>
-  <a href="https://github.com/talha-096/Keythm/pulls">
-    <img src="https://img.shields.io/github/issues-pr/talha-096/Keythm?color=brightgreen&label=PRs" alt="Pull Requests">
-  </a>
-</p>
+  <p>
+    <a href="https://github.com/talha-096">
+      <img src="https://img.shields.io/badge/Made%20by-Talha-556bf2?style=for-the-badge&logo=github&logoColor=white" alt="Made by Talha">
+    </a>
+    <a href="https://github.com/talha-096/Keythm/stargazers">
+      <img src="https://img.shields.io/github/stars/talha-096/Keythm?style=for-the-badge&logo=github&color=gold" alt="GitHub Stars">
+    </a>
+    <a href="https://github.com/talha-096/Keythm/blob/main/LICENSE">
+      <img src="https://img.shields.io/github/license/talha-096/Keythm?style=for-the-badge&color=blue" alt="License">
+    </a>
+  </p>
+</div>
 
-<details>
-<summary>Table of Contents</summary>
+---
 
-- [About](#about)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started](#-getting-started)
-- [Scripts](#-scripts)
-- [Contributing](#-contributing)
-- [Follow Me](#-follow-me)
-- [Deployment](#-deployment)
-- [Give A Star](#-give-a-star)
-- [Star History](#-star-history)
+## 📑 Table of Contents
 
+- [About The Project](#about-the-project)
+- [✨ Key Features](#-key-features)
+- [🛠 Tech Stack](#-tech-stack)
+- [🧰 Getting Started](#-getting-started)
+- [📜 Available Scripts](#-available-scripts)
+- [👤 Author](#-author)
+- [📄 License](#-license)
 
-</details>
+---
 
-## About
+## About The Project
 
-**Keythm** is a free online typing test with **realistic mechanical keyboard sounds** and real-time WPM tracking. Practice with timed tests, word counts, quotes, or zen mode — featuring an interactive on-screen keyboard, satisfying key sounds, and detailed accuracy stats.
+**Keythm** is a sleek, web-based typing speed application built with Next.js 16, React 19, and Tailwind CSS. It features **realistic mechanical keyboard audio feedback**, real-time WPM/accuracy tracking, multiple color themes, interactive virtual keyboard displays, and detailed performance breakdown charts.
 
-## ✨ Features
+---
 
-| Area | What you get |
-|------|----------------|
-| **Test modes** | Time (15s–120s), word count, quotes (length presets), zen |
-| **Mechanical key sounds** | Realistic per-key audio feedback via Web Audio; multiple keyboard themes |
-| **Virtual keyboard** | Interactive on-screen keyboard that highlights keys as you type (desktop) |
-| **Results** | WPM, raw speed, accuracy, character breakdown, consistency, elapsed time, WPM-over-time chart |
-| **Keyboard themes** | 6 color schemes — Classic, Mint, Royal, Dolch, Sand, Scarlet — each tints the entire UI |
-| **Typing fonts** | 9 fonts — Geist Mono, JetBrains Mono, Fira Code, IBM Plex Mono, Source Code Pro, Inter Tight, Space Grotesk, Nunito, Atkinson Hyperlegible |
-| **Settings** | Theme (light/dark/system), accent color, font picker, show keyboard, sound volume, live WPM, ghost mode |
-| **Haptics** | Optional vibration on supported hardware |
+## ✨ Key Features
 
-Settings persist in `localStorage`.
+| Feature | Description |
+| :--- | :--- |
+| **Mechanical Audio** | Realistic per-key audio synthesis powered by Web Audio API |
+| **Multiple Test Modes** | Practice with Time presets (15s–120s), Word counts, Quotes, or Zen mode |
+| **On-Screen Keyboard** | Interactive virtual keyboard highlighting active keystrokes in real time |
+| **Comprehensive Analytics** | Track WPM, raw speed, accuracy, consistency, character breakdown, and WPM-over-time charts |
+| **Theme Customization** | 6 color themes — Classic, Mint, Royal, Dolch, Sand, and Scarlet |
+| **Font Picker** | 9 developer-centric fonts (Geist Mono, JetBrains Mono, Fira Code, Space Grotesk, etc.) |
+| **Custom Settings** | Sound volume control, live stats toggle, ghost mode, and faah audio mode |
+
+---
 
 ## 🛠 Tech Stack
 
-<details><summary><b>Keythm</b> is built using the following technologies:</summary>
+- **Framework**: [Next.js 16](https://nextjs.org/) (App Router)
+- **UI Core**: [React 19](https://react.dev/), [Tailwind CSS v4](https://tailwindcss.com/)
+- **Primitives**: [Base UI](https://base-ui.com/), [shadcn/ui](https://ui.shadcn.com/)
+- **Animations**: [Motion](https://motion.dev/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Database & ORM**: [Drizzle ORM](https://orm.drizzle.team/) + LibSQL / Turso
+- **Linter & Formatter**: [Biome](https://biomejs.dev/)
 
-- [TypeScript](https://www.typescriptlang.org/): Typed superset of JavaScript.
-- [Next.js](https://nextjs.org/) 16: React framework with App Router.
-- [React](https://react.dev/) 19: UI library.
-- [Tailwind CSS](https://tailwindcss.com/): Utility-first CSS framework.
-- [Base UI](https://base-ui.com/): Unstyled, accessible component primitives from MUI.
-- [shadcn/ui](https://ui.shadcn.com/): Pre-styled component recipes.
-- [Motion](https://motion.dev/): Animation library for React.
-- [Recharts](https://recharts.org/): Composable charting library.
-- [Drizzle ORM](https://orm.drizzle.team/) + LibSQL: Type-safe database layer.
-- [Biome](https://biomejs.dev/): Fast linter and formatter.
-- [Serwist](https://serwist.pages.dev/): PWA / service worker toolkit.
-- [Vercel](https://vercel.com/): Deployment platform.
-
-</details><br/>
-
-[![Technologies Used](https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,ts,tailwind,shadcn,framer,drizzle,sqlite,bun,biome,vercel&theme=dark&titles=true)](https://github.com/talha-096)
+---
 
 ## 🧰 Getting Started
 
-1. Make sure [Git](https://git-scm.com/downloads) and [Bun](https://bun.sh/) (or Node.js 20+) are installed.
-2. Fork this repository and clone **your fork**:
+### Prerequisites
+Make sure you have Node.js (v20+) or Bun installed on your machine.
 
+### Installation
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/talha-096/Keythm.git
    cd Keythm
    ```
 
-3. Install dependencies and start the dev server:
-
+2. **Install dependencies:**
    ```bash
-   bun install
-   bun dev
+   npm install
    ```
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+3. **Configure environment variables:**
+   Create a `.env.local` file in the project root:
+   ```env
+   DATABASE_URL=libsql://dummy-db.turso.io
+   DATABASE_AUTH_TOKEN=dummy_auth_token_for_local_development_12345
+   ```
 
-## 📜 Scripts
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
 
-| Command | Description |
-|--------|-------------|
-| `bun dev` | Development server |
-| `bun run build` | Optimized production build |
-| `bun start` | Serve the production build |
-| `bun run lint` | Lint with Biome |
-| `bun run lint:fix` | Lint and auto-fix with Biome |
-| `bun run format` | Format with Biome |
-| `bun run typecheck` | Type-check with TypeScript |
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🔧 Contributing
+---
 
-[![contributors](https://contrib.rocks/image?repo=talha-096/Keythm)](https://github.com/talha-096/Keythm/graphs/contributors)
+## 📜 Available Scripts
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+| Script | Description |
+| :--- | :--- |
+| `npm run dev` | Starts the Next.js development server |
+| `npm run build` | Builds the application for production |
+| `npm run start` | Starts the production server |
+| `npm run lint` | Lints code using Biome |
+| `npm run format` | Formats codebase with Biome |
+| `npm run typecheck` | Validates TypeScript types |
 
-1. Fork the repo
-2. Create a new branch (`git checkout -b improve-feature`)
-3. Make the appropriate changes in the files
-4. Commit your changes (`git commit -am 'Improve feature'`)
-5. Push to the branch (`git push origin improve-feature`)
-6. Create a Pull Request
+---
 
-## 🚀 Follow Me
+## 👤 Author
 
-[![Follow Me](https://img.shields.io/github/followers/talha-096?style=social&label=Github&maxAge=2592000)](https://github.com/talha-096 "Follow Me")
+Developed by **Talha**
 
-## 📃 Deployment
+- GitHub: [@talha-096](https://github.com/talha-096)
+- Repository: [Keythm](https://github.com/talha-096/Keythm)
 
-| Method                     | Description                              | Action                                                                                                                                                         |
-| :------------------------- | :--------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **🔧 Manual Build**        | Create an optimized production build.    | `bun run build`                                                                                                                                                |
-| **▲ Vercel (Recommended)** | Deploy instantly on the Vercel platform. | [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Ftalha-096%2FKeythm)               |
-| **🌐 Netlify**             | Deploy easily on Netlify.                | [![Deploy with Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/talha-096/Keythm) |
+---
 
-For more details, check the [Next.js deployment docs](https://nextjs.org/docs/deployment).
+## 📄 License
 
-## ⭐ Give A Star
+Distributed under the MIT License. See `LICENSE` for details.
 
-If you found this project useful, give it a star to help more people discover it!
-
-## 🌟 Star History
-
-<a href="https://star-history.com/#talha-096/Keythm&Timeline">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=talha-096/Keythm&type=Timeline&theme=dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=talha-096/Keythm&type=Timeline" />
-  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=talha-096/Keythm&type=Timeline" />
-</picture>
-</a>
-
-<br />
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
