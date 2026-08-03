@@ -26,7 +26,7 @@
   </p>
 </div>
 
----
+<br />
 
 ## 📑 Table of Contents
 
@@ -38,13 +38,13 @@
 - [👤 Author](#-author)
 - [📄 License](#-license)
 
----
+<br />
 
 ## About The Project
 
 **Keythm** is a sleek, web-based typing speed application built with Next.js 16, React 19, and Tailwind CSS. It features **realistic mechanical keyboard audio feedback**, real-time WPM/accuracy tracking, multiple color themes, interactive virtual keyboard displays, and detailed performance breakdown charts.
 
----
+<br />
 
 ## ✨ Key Features
 
@@ -58,7 +58,7 @@
 | **Font Picker** | 9 developer-centric fonts (Geist Mono, JetBrains Mono, Fira Code, Space Grotesk, etc.) |
 | **Custom Settings** | Sound volume control, live stats toggle, ghost mode, and faah audio mode |
 
----
+<br />
 
 ## 🛠 Tech Stack
 
@@ -70,7 +70,7 @@
 - **Database & ORM**: [Drizzle ORM](https://orm.drizzle.team/) + LibSQL / Turso
 - **Linter & Formatter**: [Biome](https://biomejs.dev/)
 
----
+<br />
 
 ## 🧰 Getting Started
 
@@ -104,7 +104,7 @@ Make sure you have Node.js (v20+) or Bun installed on your machine.
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
----
+<br />
 
 ## 📜 Available Scripts
 
@@ -117,7 +117,7 @@ Make sure you have Node.js (v20+) or Bun installed on your machine.
 | `npm run format` | Formats codebase with Biome |
 | `npm run typecheck` | Validates TypeScript types |
 
----
+<br />
 
 ## 👤 Author
 
@@ -126,7 +126,7 @@ Developed by **Talha**
 - GitHub: [@talha-096](https://github.com/talha-096)
 - Repository: [Keythm](https://github.com/talha-096/Keythm)
 
----
+<br />
 
 ## 📄 License
 
