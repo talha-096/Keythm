@@ -13,8 +13,12 @@ const THROTTLE_SECONDS = 120;
 // Cached read — revalidates every 300s
 export const getVisitCount = unstable_cache(
   async () => {
-    const row = await db.select().from(stats).where(eq(stats.key, KEY)).get();
-    return row?.value ?? 0;
+    try {
+      const row = await db.select().from(stats).where(eq(stats.key, KEY)).get();
+      return row?.value ?? 0;
+    } catch {
+      return 0;
+    }
   },
   ["visit-count"],
   { revalidate: 300 }
@@ -22,25 +26,29 @@ export const getVisitCount = unstable_cache(
 
 // Server Action — called from client on mount
 export async function recordVisit() {
-  const cookieStore = await cookies();
-  const visited = cookieStore.get(COOKIE_NAME);
+  try {
+    const cookieStore = await cookies();
+    const visited = cookieStore.get(COOKIE_NAME);
 
-  if (visited) {
-    return;
-  }
+    if (visited) {
+      return;
+    }
 
-  cookieStore.set(COOKIE_NAME, "1", {
-    maxAge: THROTTLE_SECONDS,
-    httpOnly: true,
-    sameSite: "lax",
-    path: "/",
-  });
-
-  await db
-    .insert(stats)
-    .values({ key: KEY, value: 1 })
-    .onConflictDoUpdate({
-      target: stats.key,
-      set: { value: sql`${stats.value} + 1` },
+    cookieStore.set(COOKIE_NAME, "1", {
+      maxAge: THROTTLE_SECONDS,
+      httpOnly: true,
+      sameSite: "lax",
+      path: "/",
     });
+
+    await db
+      .insert(stats)
+      .values({ key: KEY, value: 1 })
+      .onConflictDoUpdate({
+        target: stats.key,
+        set: { value: sql`${stats.value} + 1` },
+      });
+  } catch {
+    /* ignore database errors when db is offline or unconfigured */
+  }
 }
