@@ -7,10 +7,10 @@
   <p align="center">
     A free typing test with realistic mechanical keyboard sounds
     <br />
-    <a href="https://keythm.aayushbharti.in/"><strong>Try it live »</strong></a>
+    <a href="https://github.com/talha-096/Keythm"><strong>Try it live »</strong></a>
     <br />
     <br />
-    <a href="https://keythm.aayushbharti.in/">Website</a>
+    <a href="https://github.com/talha-096/Keythm">Website</a>
     &middot;
     <a href="https://github.com/talha-096/Keythm/issues">Issues</a>
     &middot;
@@ -98,7 +98,7 @@ Settings persist in `localStorage`.
 
 </details><br/>
 
-[![Technologies Used](https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,ts,tailwind,shadcn,framer,drizzle,sqlite,bun,biome,vercel&theme=dark&titles=true)](https://aayushbharti.in)
+[![Technologies Used](https://go-skill-icons.vercel.app/api/icons?i=nextjs,react,ts,tailwind,shadcn,framer,drizzle,sqlite,bun,biome,vercel&theme=dark&titles=true)](https://github.com/talha-096)
 
 ## 🧰 Getting Started
 
@@ -106,8 +106,8 @@ Settings persist in `localStorage`.
 2. Fork this repository and clone **your fork**:
 
    ```bash
-   git clone https://github.com/<your-username>/keythm.git
-   cd keythm
+   git clone https://github.com/talha-096/Keythm.git
+   cd Keythm
    ```
 
 3. Install dependencies and start the dev server:
